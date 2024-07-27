@@ -84,7 +84,6 @@ python main.py
 
 
 ## How It Works
--------------------
 
 ## Agent Definitions
 
