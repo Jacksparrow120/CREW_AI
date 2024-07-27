@@ -70,9 +70,14 @@ project/
     SERPER_API_KEY=your_serper_api_key
     OPENAI_API_KEY=your_openai_api_key
     ```
+    Using OPENAPI Key is optional as I have used local LLM.
 
 4. **Place your PDF report**:
     Ensure you have your blood test report in the root directory. The provided sample report is `WM17S.pdf`.
+
+5. **LLM-setup**:
+   For this Project I have used "openhermes" which is free and local LLM provided by Ollama. 
+   
 
 ## Running the Project
 
@@ -98,7 +103,6 @@ Provides health recommendations based on the analysis.
 
 ### Tasks
 
-
 ### Task 1
 Analyzes the blood test report and provides a summary.
 
@@ -115,5 +119,4 @@ The crew runs in a sequential process where each task is executed in order.
 
 ## PDF Reading Tool
 
-
-A custom tool `read_pdf` is defined to extract text from the provided PDF report using **PyPDF2**.
+A custom tool `read_pdf` is defined to extract and read text from the provided PDF report using **PyPDF2**.
