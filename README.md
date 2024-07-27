@@ -83,10 +83,10 @@ python main.py
 ```
 
 
-##How It Works
+## How It Works
+-------------------
 
-
-## Agent Definitions
+# Agent Definitions
 -------------------
 
 ### Blood Report Reader
@@ -98,8 +98,8 @@ Searches for relevant health articles on the web.
 ### Health Recommender
 Provides health recommendations based on the analysis.
 
-## Tasks
-------
+# Tasks
+
 
 ### Task 1
 Analyzes the blood test report and provides a summary.
@@ -111,12 +111,12 @@ Searches for articles related to health issues identified in the blood test repo
 Recommends articles that can help improve the person's health.
 
 ## Crew Initialization
----------------------
+
 
 A crew of agents is created with the defined tasks.
 The crew runs in a sequential process where each task is executed in order.
 
 ## PDF Reading Tool
------------------
+
 
 A custom tool `read_pdf` is defined to extract text from the provided PDF report using **PyPDF2**.
