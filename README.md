@@ -22,12 +22,6 @@ The project leverages the CrewAI framework to create a team of AI agents that pe
 
 ## Project Structure
 
-```markdown
-
-### Directory Structure
-
-```plain
-
 project/
 
 ├── .env
