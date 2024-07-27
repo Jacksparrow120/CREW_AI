@@ -72,7 +72,7 @@ project/
     ```
     Using OPENAPI Key is optional as I have used local LLM.
 
-4. **Place your PDF report**:
+4. **Place your PDF report**: \n
     Ensure you have your blood test report in the root directory. The provided sample report is `WM17S.pdf`.
 
 5. **LLM-setup**:
