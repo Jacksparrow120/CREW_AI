@@ -86,8 +86,8 @@ python main.py
 ## How It Works
 -------------------
 
-# Agent Definitions
--------------------
+## Agent Definitions
+
 
 ### Blood Report Reader
 Reads and analyzes the blood test report.
@@ -98,7 +98,7 @@ Searches for relevant health articles on the web.
 ### Health Recommender
 Provides health recommendations based on the analysis.
 
-# Tasks
+## Tasks
 
 
 ### Task 1
