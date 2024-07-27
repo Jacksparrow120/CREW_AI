@@ -12,7 +12,7 @@ llm=Ollama(model = "openhermes")
 report_reader = Agent(
     role = "Blood Report Reader",
     goal = 'Read and analyze given blood test report',
-    backstory = 'You are skilled at reading, understanding and analyzing medical reports, creating summary of blood test reports.',
+    backstory = 'You are skilled at reading, understanding and analyzing medical reports, creating summary of blood test reports in atleast 100 words.',
     tool = [read_pdf],
     Verbose = True,
     allow_delegation = False,
