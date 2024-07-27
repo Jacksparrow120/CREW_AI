@@ -72,10 +72,10 @@ project/
     ```
     Using OPENAPI Key is optional as I have used local LLM.
 
-4. **Place your PDF report**: \n
+4. **Place your PDF report**: <br>
     Ensure you have your blood test report in the root directory. The provided sample report is `WM17S.pdf`.
 
-5. **LLM-setup**:
+5. **LLM-setup**:<br>
    For this Project I have used "openhermes" which is free and local LLM provided by Ollama. 
    
 
