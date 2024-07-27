@@ -1,0 +1,5 @@
+crewai
+langchain-community
+langchain-community[llms]
+crewai-tools
+PyPDF2
