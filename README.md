@@ -70,7 +70,7 @@ project/
     SERPER_API_KEY=your_serper_api_key
     OPENAI_API_KEY=your_openai_api_key
     ```
-    Using OPENAPI Key is optional as I have used local LLM.
+    Using OPEN_AI_API Key is optional as I have used local LLM.
 
 4. **Place your PDF report**: <br>
     Ensure you have your blood test report in the root directory. The provided sample report is `WM17S.pdf`.
