@@ -10,8 +10,7 @@ This project is designed to analyze blood test reports, search for relevant heal
 - [Setup](#setup)
 - [Running the Project](#running-the-project)
 - [How It Works](#how-it-works)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -85,7 +84,7 @@ python main.py
 
 ## How It Works
 
-## Agent Definitions
+### Agent Definitions
 
 
 ### Blood Report Reader
@@ -97,7 +96,7 @@ Searches for relevant health articles on the web.
 ### Health Recommender
 Provides health recommendations based on the analysis.
 
-## Tasks
+### Tasks
 
 
 ### Task 1
@@ -109,8 +108,7 @@ Searches for articles related to health issues identified in the blood test repo
 ### Task 3
 Recommends articles that can help improve the person's health.
 
-## Crew Initialization
-
+### Crew Initialization
 
 A crew of agents is created with the defined tasks.
 The crew runs in a sequential process where each task is executed in order.
