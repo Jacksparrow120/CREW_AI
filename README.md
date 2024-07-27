@@ -80,9 +80,10 @@ project/
 To run the project, simply execute the `main.py` script:
 ```bash
 python main.py
+```
 
 
-## How It Works
+##How It Works
 
 
 ## Agent Definitions
